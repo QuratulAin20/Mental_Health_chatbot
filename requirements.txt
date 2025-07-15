@@ -2,10 +2,7 @@ pyaudio
 openpyxl
 pandas
 Flask
-Flask-SQLAlchemy
 pydub
-sounddevice
-soundfile
 SpeechRecognition
 whisper 
 transformers
@@ -13,18 +10,11 @@ torch
 scikit-learn
 openai
 anthropic
+groq
 numpy
 uuid
 requests
 python-dotenv
-groq
-python-dotenv
-faster-whisper
 elevenlabs
 tqdm
-numpy
 streamlit
-# --- Testing ---
-pytest
-pytest-asyncio
-
