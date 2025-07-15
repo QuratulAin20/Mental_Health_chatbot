@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMANI Mental Health Voice Bot</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000000; /* Black background */
+            color: #FFFFFF; /* Default text color to white */
+        }
+        h1, h3 {
+            color: #008080; /* Turquoise color */
+            text-align: center;
+        }
+        p, li {
+            color: #FFFFFF; /* White color for paragraphs and list items */
+            font-size: 18px; /* Wider font size for readability */
+        }
+        form {
+            margin: 20px 0;
+            text-align: center;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #008080; /* Turquoise button */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #006666; /* Darker turquoise on hover */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        select {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            background-color: #008080; /* Turquoise background for dropdown */
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>OMANI Mental Health Voice Bot</h1>
+
+    <form action="/process" method="post">
+        <h3>Select Privacy Policy</h3>
+        <select name="privacy_option" required>
+            <option value="" disabled selected>Select a privacy option</option>
+            <option value="option1">Privacy Option 1</option>
+            <option value="option2">Privacy Option 2</option>
+            <option value="option3">Privacy Option 3</option>
+        </select>
+        <br>
+        <input type="checkbox" name="consent" required> I consent to the processing of my information according to the selected privacy policy.<br>
+        <input type="submit" value="Record Voice Input">
+    </form>
+
+    {% if response %}
+    <h3>🧠 Final Therapeutic Response:</h3>
+    <p>🤖 ({{ model }}) Response ({{ latency }}s): {{ response }}</p>
+    <audio id="audioResponse" controls>
+        <source src="{{ url_for('audio', filename=audio_file) }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Conversation History:</h3>
+    <ul>
+        {% for message in history %}
+        <li><strong>{{ message.role }}:</strong> {{ message.content }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>

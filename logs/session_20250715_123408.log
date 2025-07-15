@@ -1,0 +1,10 @@
+[2025-07-15 12:34:12,946] INFO - DataFrame loaded successfully.
+[2025-07-15 12:34:12,981] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-07-15 12:34:12,981] INFO - [33mPress CTRL+C to quit[0m
+[2025-07-15 12:34:12,995] INFO -  * Restarting with watchdog (windowsapi)
+[2025-07-15 12:35:52,266] INFO -  * Restarting with watchdog (windowsapi)
+[2025-07-15 12:36:54,877] INFO -  * Restarting with watchdog (windowsapi)
+[2025-07-15 12:40:38,800] INFO -  * Restarting with watchdog (windowsapi)
+[2025-07-15 12:44:55,323] INFO -  * Restarting with watchdog (windowsapi)
+[2025-07-15 12:45:04,417] INFO -  * Restarting with watchdog (windowsapi)

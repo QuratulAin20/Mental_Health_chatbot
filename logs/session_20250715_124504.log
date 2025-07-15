@@ -1,0 +1,26 @@
+[2025-07-15 12:45:09,277] INFO - DataFrame loaded successfully.
+[2025-07-15 12:45:09,294] WARNING -  * Debugger is active!
+[2025-07-15 12:45:09,294] INFO -  * Debugger PIN: 240-075-977
+[2025-07-15 12:45:18,783] INFO - 127.0.0.1 - - [15/Jul/2025 12:45:18] "GET / HTTP/1.1" 200 -
+[2025-07-15 12:45:25,441] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 12:45:27,078] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[2025-07-15 12:45:27,080] INFO - Transcription successful.
+[2025-07-15 12:45:27,080] INFO - 🤖 Running emotion and intent classification...
+[2025-07-15 12:45:27,397] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 12:45:27,406] INFO - 🎭 Emotion: الحزن | Intent: تفريغ مشاعر
+[2025-07-15 12:45:27,409] INFO - ℹ️ No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 12:45:27,409] INFO -  Building culturally adapted prompt...
+[2025-07-15 12:45:31,992] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 12:45:32,011] INFO - GPT-4o responded in 4.60s
+[2025-07-15 12:45:32,011] WARNING - Term not found. Returning input term: أفهم من كلامك إنك تمر بوقت صعب ومشاعر حزينة. الحزن جزء طبيعي من تجربة الإنسان، وأحيانًا يكون من المهم نسمح لأنفسنا نشعر به ونفهمه. 
+
+تذكر إن الله دائماً معنا، وهو أرحم الراحمين. يمكن للدعاء والصلاة يكونوا مصدر راحة ودعم كبير في مثل هالأوقات. 
+
+إذا كنت تحس إنك تحتاج تتكلم مع شخص، يمكن يكون من المفيد تتواصل مع صديق قريب أو مختص نفسي. أحياناً المشاركة في المشاعر تساعدنا نشعر بالراحة ونشوف الأمور من زاوية مختلفة.
+
+أنا هنا إذا تحتاج تتكلم أكثر أو تحتاج دعم بأي شكل. خلك قوي والله معاك.
+[2025-07-15 12:45:39,837] INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/DANw8bnAVbjDEHwZIoYa?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+[2025-07-15 12:45:39,992] INFO - [TTS] Arabic TTS saved to: static/audio\255f1ddc-59e4-4724-aac7-16592cbc0609.mp3
+[2025-07-15 12:45:39,994] INFO - 127.0.0.1 - - [15/Jul/2025 12:45:39] "POST /process HTTP/1.1" 200 -
+[2025-07-15 12:45:40,370] INFO - 127.0.0.1 - - [15/Jul/2025 12:45:40] "[35m[1mGET /audio/255f1ddc-59e4-4724-aac7-16592cbc0609.mp3 HTTP/1.1[0m" 206 -
+[2025-07-15 12:45:40,618] INFO - 127.0.0.1 - - [15/Jul/2025 12:45:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

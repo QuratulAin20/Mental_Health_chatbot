@@ -1,0 +1,7 @@
+[2025-07-14 22:55:59,361] INFO - 🎙️ Starting OMANI Mental Health Voice Bot Session
+[2025-07-14 22:56:02,325] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-14 22:56:04,349] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[2025-07-14 22:56:04,352] INFO - Transcription successful.
+[2025-07-14 22:56:04,352] INFO - 🤖 Running emotion and intent classification...
+[2025-07-14 22:56:05,141] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-14 22:56:05,148] INFO - 🎭 Emotion: الرضا | Intent: موافقة

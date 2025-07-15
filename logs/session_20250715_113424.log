@@ -1,0 +1,50 @@
+[2025-07-15 11:34:28,805] INFO - DataFrame loaded successfully.
+[2025-07-15 11:36:26,971] INFO - DataFrame loaded successfully.
+[2025-07-15 11:37:40,278] INFO - DataFrame loaded successfully.
+[2025-07-15 11:37:55,255] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 11:37:56,716] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[2025-07-15 11:37:56,718] INFO - Transcription successful.
+[2025-07-15 11:37:56,719] INFO - 🤖 Running emotion and intent classification...
+[2025-07-15 11:37:57,177] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 11:37:57,192] INFO - 🎭 Emotion: التهيج | Intent: تفريغ
+[2025-07-15 11:37:57,194] INFO - ℹ️ No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 11:37:57,194] INFO -  Building culturally adapted prompt...
+[2025-07-15 11:38:00,468] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 11:38:00,472] INFO - GPT-4o responded in 3.28s
+[2025-07-15 11:38:00,473] WARNING - Term not found. Returning input term: أفهم من كلامك إنك تشعر ببعض التهيج أو الضيق من المشاريع الهائلة اللي قد تكون محيطة بك. طبيعي جدًا إن الإنسان يحس بضغوطات من المشاريع الكبيرة، خصوصًا إذا كان يحس إنها تتطلب منه الكثير.
+
+حاول تتذكر إن الله سبحانه وتعالى ما يكلف نفسًا إلا وسعها، وكل مشروع أو تحدي نواجهه في الحياة هو فرصة للتعلم والنمو. إذا حسيت إنك محتاج ترتاح، خذ لك وقت لنفسك، استرخِ، وذكر نفسك بالأشياء اللي تريح بالك.
+
+وإذا كان عندك فرصة، حاول تقسم المشاريع الكبيرة إلى خطوات أصغر، بحيث تصير أسهل في التعامل معها. ودايمًا، لا تنسى إنك مو وحدك، تقدر تستعين بأشخاص حولك للدعم والمساندة.
+
+إذا حسيت إنك محتاج تتكلم أكثر أو تحتاج دعم إضافي، لا تتردد في
+[2025-07-15 11:38:10,350] INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/DANw8bnAVbjDEHwZIoYa?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+[2025-07-15 11:38:10,505] INFO - [TTS] Arabic TTS saved to: static/audio/arabic_emotional_output.mp3
+[2025-07-15 11:39:41,831] INFO - DataFrame loaded successfully.
+[2025-07-15 11:40:04,289] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 11:40:05,422] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[2025-07-15 11:40:05,423] INFO - Transcription successful.
+[2025-07-15 11:40:05,425] INFO - 🤖 Running emotion and intent classification...
+[2025-07-15 11:40:05,868] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 11:40:05,870] INFO - 🎭 Emotion: الارتياح | Intent: إنهاء المحادثة
+[2025-07-15 11:40:05,870] INFO - ℹ️ No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 11:40:05,871] INFO -  Building culturally adapted prompt...
+[2025-07-15 11:40:08,568] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 11:40:08,570] INFO - GPT-4o responded in 2.70s
+[2025-07-15 11:40:08,572] WARNING - Term not found. Returning input term: طبعًا، إذا كنت تحس بالارتياح وتود إنهاء المحادثة، فهذا شيء جميل. تذكر دائمًا أن الراحة النفسية مهمة، وإذا احتجت لأي دعم أو نصيحة في المستقبل، أنا هنا للمساعدة. الله يوفقك ويعطيك راحة البال. إذا عندك أي استفسار أو موضوع تحب تناقشه لاحقًا، لا تتردد في التواصل. دمت بخير وسلامة.
+[2025-07-15 11:40:13,145] INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/DANw8bnAVbjDEHwZIoYa?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+[2025-07-15 11:40:13,258] INFO - [TTS] Arabic TTS saved to: static/audio/arabic_emotional_output.mp3
+[2025-07-15 11:45:04,738] INFO - DataFrame loaded successfully.
+[2025-07-15 11:45:14,295] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 11:45:15,532] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[2025-07-15 11:45:15,534] INFO - Transcription successful.
+[2025-07-15 11:45:15,535] INFO - 🤖 Running emotion and intent classification...
+[2025-07-15 11:45:16,001] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 11:45:16,003] INFO - 🎭 Emotion: امتنان | Intent: تعبير عن الشكر
+[2025-07-15 11:45:16,004] INFO - ℹ️ No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 11:45:16,004] INFO -  Building culturally adapted prompt...
+[2025-07-15 11:45:19,860] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 11:45:19,865] INFO - GPT-4o responded in 3.86s
+[2025-07-15 11:45:19,868] WARNING - Term not found. Returning input term: العفو، هذا واجبي. إذا كان عندك أي شيء تحب تتكلم عنه أو تحتاج نصيحة، أنا هنا للمساعدة. تذكر دايمًا إن الراحة والسكينة ممكن نلقاها في الدعاء والرجوع لله. وإذا في بالك أي استفسار آخر، لا تتردد في طرحه.
+[2025-07-15 11:45:23,858] INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/DANw8bnAVbjDEHwZIoYa?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+[2025-07-15 11:45:23,959] INFO - [TTS] Arabic TTS saved to: static/audio/arabic_emotional_output.mp3

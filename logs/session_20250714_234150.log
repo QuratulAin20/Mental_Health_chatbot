@@ -1,0 +1,931 @@
+[2025-07-14 23:41:56,157] INFO - 🎙️ Starting OMANI Mental Health Voice Bot Session
+[2025-07-14 23:42:00,454] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-14 23:42:03,128] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[2025-07-14 23:42:03,128] INFO - Transcription successful.
+[2025-07-14 23:42:03,128] INFO - 🤖 Running emotion and intent classification...
+[2025-07-14 23:42:03,958] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-14 23:42:03,958] INFO - 🎭 Emotion: الغضب | Intent: تفريغ
+[2025-07-14 23:42:03,974] INFO - ℹ️ No specific intent matched. Defaulting to 'general_support'
+[2025-07-14 23:42:03,974] INFO -  Building culturally adapted prompt...
+[2025-07-14 23:42:03,974] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:03,974] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:05,485] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:05,485] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:05,485] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:05,485] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:05,485] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:06,107] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:06,107] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:06,107] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:06,107] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:06,107] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:07,179] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:07,179] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:07,179] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:07,179] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:07,179] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:07,637] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:07,637] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:07,637] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:07,637] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:07,637] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:08,757] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:08,757] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:08,757] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:08,757] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:08,757] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:09,271] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:09,271] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:09,271] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:09,271] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:09,271] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:09,787] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:09,787] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:09,787] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:09,787] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:09,787] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:10,302] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:10,302] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:10,302] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:10,302] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:10,302] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:10,813] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:10,813] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:10,813] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:10,813] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:10,813] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:11,331] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:11,332] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:11,332] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:11,332] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:11,332] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:11,886] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:11,886] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:11,886] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:11,886] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:11,886] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:12,353] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:12,353] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:12,353] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:12,353] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:12,353] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:12,863] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:12,863] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:12,863] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:12,863] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:12,863] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:13,571] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:13,571] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:13,571] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:13,571] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:13,571] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:14,004] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:14,004] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:14,005] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:14,005] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:14,005] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:14,541] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:14,541] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:14,541] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:14,541] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:14,541] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:15,012] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:15,012] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:15,012] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:15,012] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:15,012] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:15,523] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:15,523] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:15,523] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:15,523] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:15,523] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:16,041] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:16,041] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:16,041] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:16,043] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:16,043] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:16,475] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:16,475] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:16,475] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:16,475] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:16,481] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:16,963] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:16,963] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:16,963] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:16,963] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:16,963] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:17,481] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:17,496] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:17,496] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:17,496] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:17,496] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:17,988] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:17,988] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:17,988] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:17,988] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:17,988] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:18,495] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:18,495] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:18,495] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:18,495] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:18,495] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:19,106] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:19,106] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:19,106] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:19,106] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:19,106] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:19,517] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:19,517] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:19,517] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:19,517] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:19,517] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:20,033] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:20,035] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:20,035] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:20,036] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:20,036] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:20,545] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:20,547] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:20,547] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:20,547] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:20,547] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:21,055] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:21,055] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:21,055] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:21,055] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:21,055] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:21,477] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:21,484] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:21,485] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:21,485] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:21,485] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:21,892] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:21,895] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:21,895] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:21,895] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:21,895] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:22,900] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:22,917] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:22,917] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:22,917] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:22,918] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:23,412] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:23,415] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:23,415] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:23,415] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:23,416] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:23,925] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:23,925] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:23,925] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:23,925] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:23,925] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:24,435] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:24,435] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:24,435] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:24,435] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:24,435] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:25,564] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:25,565] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:25,565] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:25,565] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:25,565] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:26,075] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:26,075] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:26,075] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:26,075] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:26,075] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:26,786] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:26,794] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:26,794] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:26,795] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:26,795] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:27,304] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:27,305] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:27,305] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:27,305] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:27,305] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:27,716] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:27,720] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:27,720] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:27,720] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:27,720] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:28,152] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:28,152] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:28,152] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:28,152] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:28,152] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:28,626] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:28,626] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:28,626] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:28,626] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:28,626] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:29,756] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:29,756] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:29,756] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:29,756] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:29,756] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:30,160] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:30,160] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:30,160] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:30,160] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:30,160] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:30,646] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:30,646] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:30,646] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:30,646] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:30,646] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:31,094] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:31,096] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:31,096] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:31,096] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:31,096] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:31,606] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:31,606] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:31,606] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:31,606] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:31,609] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:32,426] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:32,426] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:32,426] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:32,426] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:32,426] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:32,935] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:32,935] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:32,935] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:32,935] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:32,935] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:33,340] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:33,340] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:33,340] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:33,340] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:33,340] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:33,857] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:33,857] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:33,857] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:33,857] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:33,857] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:34,362] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:34,362] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:34,362] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:34,362] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:34,362] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:34,881] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:34,881] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:34,881] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:34,881] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:34,881] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:35,391] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:35,391] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:35,391] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:35,391] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:35,391] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:35,891] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:35,907] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:35,907] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:35,907] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:35,907] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:36,312] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:36,312] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:36,312] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:36,312] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:36,312] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:36,828] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:36,828] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:36,828] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:36,828] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:36,828] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:37,341] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:37,341] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:37,341] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:37,341] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:37,341] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:37,842] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:37,842] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:37,842] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:37,842] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:37,842] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:38,359] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:38,359] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:38,359] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:38,359] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:38,359] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:38,875] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:38,875] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:38,875] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:38,875] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:38,875] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:39,388] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:39,388] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:39,388] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:39,388] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:39,388] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:39,893] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:39,893] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:39,893] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:39,893] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:39,893] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:40,404] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:40,414] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:40,414] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:40,414] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:40,414] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:40,921] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:40,921] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:40,921] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:40,921] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:40,921] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:41,434] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:41,434] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:41,434] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:41,434] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:41,434] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:42,154] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:42,155] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:42,155] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:42,155] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:42,155] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:42,667] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:42,669] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:42,669] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:42,669] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:42,669] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:43,169] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:43,169] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:43,169] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:43,169] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:43,169] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:43,689] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:43,689] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:43,689] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:43,689] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:43,689] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:44,193] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:44,193] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:44,193] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:44,193] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:44,193] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:44,713] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:44,714] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:44,714] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:44,714] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:44,714] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:45,221] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:45,221] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:45,221] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:45,221] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:45,221] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:45,621] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:45,621] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:45,621] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:45,621] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:45,621] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:46,148] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:46,148] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:46,148] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:46,148] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:46,148] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:47,170] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:47,170] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:47,170] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:47,170] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:47,170] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:47,595] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:47,595] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:47,595] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:47,595] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:47,595] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:48,002] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:48,002] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:48,002] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:48,002] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:48,002] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:48,418] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:48,418] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:48,418] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:48,418] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:48,418] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:48,912] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:48,912] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:48,912] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:48,912] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:48,912] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:49,417] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:49,417] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:49,417] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:49,417] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:49,417] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:49,926] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:49,926] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:49,926] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:49,926] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:49,926] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:51,058] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:51,058] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:51,058] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:51,058] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:51,058] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:51,471] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:51,471] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:51,471] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:51,471] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:51,471] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:51,978] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:51,978] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:51,986] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:51,986] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:51,986] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:52,902] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:52,907] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:52,907] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:52,907] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:52,907] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:53,410] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:53,410] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:53,410] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:53,410] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:53,410] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:53,928] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:53,928] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:53,928] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:53,928] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:53,928] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:54,441] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:54,441] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:54,441] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:54,441] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:54,441] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:54,954] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:54,956] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:54,956] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:54,956] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:54,956] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:55,462] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:55,462] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:55,462] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:55,462] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:55,462] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:55,876] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:55,876] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:55,876] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:55,876] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:55,876] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:56,377] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:56,377] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:56,377] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:56,377] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:56,377] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:56,894] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:56,894] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:56,894] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:56,894] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:56,894] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:57,302] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:57,302] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:57,302] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:57,302] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:57,302] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:57,710] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:57,710] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:57,710] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:57,710] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:57,710] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:58,229] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:58,229] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:58,229] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:58,229] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:58,229] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:58,685] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:58,685] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:58,685] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:58,685] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:58,685] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:59,151] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:59,151] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:59,151] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:59,151] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:59,151] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:42:59,841] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:42:59,855] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:42:59,855] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:42:59,855] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:42:59,856] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:00,279] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:00,280] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:00,280] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:00,280] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:00,280] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:00,684] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:00,684] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:00,684] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:00,684] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:00,684] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:01,200] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:01,203] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:01,203] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:01,203] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:01,203] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:01,700] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:01,700] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:01,700] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:01,700] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:01,700] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:02,217] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:02,217] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:02,217] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:02,217] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:02,217] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:02,631] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:02,634] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:02,634] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:02,634] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:02,634] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:03,143] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:03,143] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:03,143] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:03,143] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:03,143] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:03,550] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:03,550] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:03,550] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:03,550] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:03,550] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:04,168] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:04,171] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:04,171] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:04,171] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:04,171] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:04,682] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:04,682] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:04,682] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:04,682] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:04,682] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:05,499] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:05,499] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:05,499] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:05,499] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:05,499] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:06,320] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:06,321] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:06,321] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:06,321] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:06,321] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:06,827] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:06,827] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:06,827] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:06,827] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:06,827] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:07,440] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:07,440] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:07,440] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:07,440] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:07,440] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:07,941] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:07,941] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:07,941] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:07,941] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:07,941] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:08,461] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:08,461] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:08,461] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:08,461] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:08,461] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:08,976] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:08,976] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:08,984] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:08,984] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:08,984] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:09,493] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:09,497] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:09,497] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:09,497] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:09,497] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:10,005] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:10,009] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:10,009] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:10,009] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:10,009] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:10,518] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:10,518] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:10,518] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:10,518] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:10,518] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:11,027] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:11,644] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:11,644] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:11,644] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:11,644] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:12,158] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:12,158] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:12,158] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:12,158] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:12,158] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:12,656] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:12,656] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:12,656] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:12,656] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:12,656] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:13,170] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:13,170] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:13,170] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:13,170] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:13,170] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:13,692] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:13,692] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:13,692] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:13,692] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:13,692] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:14,206] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:14,206] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:14,206] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:14,206] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:14,206] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:14,716] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:14,716] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:14,716] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:14,716] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:14,716] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:15,221] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:15,221] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:15,221] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:15,221] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:15,221] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:15,740] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:15,740] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:15,740] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:15,740] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:15,740] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:16,254] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:16,255] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:16,256] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:16,256] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:16,256] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:16,763] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:16,763] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:16,763] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:16,763] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:16,763] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:17,366] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:17,381] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:17,381] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:17,381] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:17,381] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:17,890] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:17,890] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:17,890] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:17,890] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:17,890] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:18,402] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:18,405] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:18,405] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:18,405] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:18,405] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:19,223] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:19,232] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:19,232] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:19,232] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:19,232] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:19,745] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:19,745] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:19,745] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:19,745] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:19,745] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:20,245] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:20,245] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:20,245] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:20,245] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:20,245] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:20,758] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:20,758] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:20,758] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:20,758] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:20,758] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:21,577] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:21,577] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:21,577] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:21,577] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:21,577] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:22,182] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:22,182] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:22,182] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:22,182] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:22,182] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:22,907] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:22,907] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:22,907] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:22,907] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:22,907] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:23,422] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:23,422] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:23,422] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:23,422] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:23,422] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:24,541] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:24,541] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:24,541] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:24,541] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:24,541] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:25,046] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:25,062] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:25,062] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:25,062] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:25,062] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:25,563] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:25,563] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:25,563] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:25,563] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:25,563] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:26,084] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:26,084] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:26,084] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:26,084] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:26,084] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:26,584] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:26,584] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:26,584] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:26,584] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:26,584] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:27,098] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:27,098] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:27,098] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:27,098] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:27,098] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:27,525] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:27,525] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:27,525] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:27,525] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:27,525] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:28,028] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:28,028] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:28,028] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:28,028] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:28,028] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:28,538] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:28,538] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:28,538] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:28,538] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:28,538] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:29,044] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:29,044] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:29,044] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:29,044] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:29,044] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:29,499] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:29,499] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:29,499] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:29,499] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:29,499] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:29,971] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:29,971] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:29,971] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:29,971] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:29,971] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:30,784] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:30,784] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:30,784] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:30,784] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:30,784] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:31,296] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:31,296] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:31,296] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:31,296] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:31,296] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:31,805] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:31,820] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:31,820] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:31,820] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:31,820] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:32,332] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:32,335] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:32,335] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:32,335] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:32,335] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:32,841] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:32,841] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:32,841] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:32,841] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:32,841] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:33,758] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:33,758] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:33,758] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:33,758] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:33,758] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:34,262] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:34,278] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:34,278] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:34,278] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:34,278] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:35,188] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:35,188] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:35,188] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:35,188] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:35,188] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:35,710] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:35,710] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:35,710] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:35,710] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:35,710] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:36,217] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:36,217] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:36,217] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:36,217] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:36,217] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:36,723] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:36,723] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:36,723] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:36,723] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:36,723] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:37,547] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:37,547] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:37,547] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:37,547] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:37,547] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:38,060] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:38,060] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:38,060] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:38,060] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:38,060] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:38,567] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:38,567] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:38,567] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:38,567] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:38,567] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:39,076] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:39,091] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:39,091] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:39,091] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:39,091] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:39,599] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:39,599] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:39,599] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:39,599] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:39,599] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:40,108] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:40,108] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:40,108] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:40,108] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:40,108] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:40,615] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:40,615] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:40,615] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:40,615] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:40,615] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:41,027] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:41,027] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:41,027] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:41,027] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:41,027] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:41,543] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:41,543] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:41,543] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:41,543] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:41,543] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:42,055] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:42,055] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:42,055] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:42,055] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:42,055] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:42,573] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:42,574] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:42,574] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:42,574] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:42,574] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:43,073] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:43,073] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:43,073] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:43,073] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:43,073] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:43,695] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:43,695] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:43,695] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:43,695] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:43,695] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:44,105] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:44,105] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:44,105] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:44,105] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:44,105] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:44,615] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:44,615] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:44,615] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:44,615] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:44,615] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:45,026] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:45,028] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:45,028] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:45,028] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:45,028] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:45,438] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:45,438] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:45,438] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:45,438] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:45,438] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:45,947] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:45,947] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:45,947] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:45,947] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:45,947] INFO - ⚠️ Falling back to claude-sonnet
+[2025-07-14 23:43:46,453] INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+[2025-07-14 23:43:46,453] ERROR - claude-sonnet failed: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: Input should be a valid list'}}
+[2025-07-14 23:43:46,453] INFO - ⚠️ Falling back to gpt-4o
+[2025-07-14 23:43:46,453] ERROR - gpt-4o failed: can only concatenate list (not "str") to list
+[2025-07-14 23:43:46,453] INFO - ⚠️ Falling back to claude-sonnet

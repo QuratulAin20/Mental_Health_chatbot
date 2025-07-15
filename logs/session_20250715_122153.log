@@ -1,0 +1,21 @@
+[2025-07-15 12:21:58,406] INFO - DataFrame loaded successfully.
+[2025-07-15 12:21:58,429] WARNING -  * Debugger is active!
+[2025-07-15 12:21:58,433] INFO -  * Debugger PIN: 240-075-977
+[2025-07-15 12:21:58,516] INFO - 127.0.0.1 - - [15/Jul/2025 12:21:58] "GET / HTTP/1.1" 200 -
+[2025-07-15 12:21:59,050] INFO - 127.0.0.1 - - [15/Jul/2025 12:21:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-07-15 12:22:20,812] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 12:22:22,582] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[2025-07-15 12:22:22,584] INFO - Transcription successful.
+[2025-07-15 12:22:22,584] INFO - 🤖 Running emotion and intent classification...
+[2025-07-15 12:22:23,590] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 12:22:23,591] INFO - 🎭 Emotion: الفرح | Intent: شكر وتقدير
+[2025-07-15 12:22:23,603] INFO - ℹ️ No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 12:22:23,603] INFO -  Building culturally adapted prompt...
+[2025-07-15 12:22:26,984] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 12:22:26,993] INFO - GPT-4o responded in 3.39s
+[2025-07-15 12:22:26,999] INFO -  * Detected change in 'C:\\Users\\DELL\\anaconda3\\envs\\health_chatbot\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-07-15 12:22:27,007] INFO - 127.0.0.1 - - [15/Jul/2025 12:22:27] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+[2025-07-15 12:22:27,351] INFO - 127.0.0.1 - - [15/Jul/2025 12:22:27] "GET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-07-15 12:22:27,353] INFO - 127.0.0.1 - - [15/Jul/2025 12:22:27] "GET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-07-15 12:22:27,606] INFO - 127.0.0.1 - - [15/Jul/2025 12:22:27] "GET /process?__debugger__=yes&cmd=resource&f=console.png&s=1GyngkmmgmimZM9WsYsM HTTP/1.1" 200 -
+[2025-07-15 12:22:27,719] INFO - 127.0.0.1 - - [15/Jul/2025 12:22:27] "GET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
