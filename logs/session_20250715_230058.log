@@ -1,0 +1,28 @@
+[2025-07-15 23:01:03,080] INFO - DataFrame loaded successfully.
+[2025-07-15 23:01:03,099] WARNING -  * Debugger is active!
+[2025-07-15 23:01:03,102] INFO -  * Debugger PIN: 240-075-977
+[2025-07-15 23:01:03,148] INFO - 127.0.0.1 - - [15/Jul/2025 23:01:03] "GET / HTTP/1.1" 200 -
+[2025-07-15 23:01:50,616] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 23:01:51,978] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[2025-07-15 23:01:51,979] INFO - Transcription successful.
+[2025-07-15 23:01:51,979] INFO - Running emotion and intent classification...
+[2025-07-15 23:01:51,987] INFO - No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 23:01:52,294] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 23:01:52,307] INFO - Emotion: الحزن | Intent: تفريغ
+[2025-07-15 23:01:52,308] INFO -  Building culturally adapted prompt...
+[2025-07-15 23:01:57,849] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 23:01:57,862] INFO - GPT-4o responded in 5.55s
+[2025-07-15 23:01:57,869] WARNING - Term not found. Returning input term: أفهم أنك تمر بوقت صعب وتشعر بالحزن، وهذا شيء طبيعي يمر به الجميع في بعض الأحيان. من المهم تعرف أن التعبير عن مشاعرك هو خطوة إيجابية نحو الشعور بالتحسن. 
+
+إذا كنت بحاجة للتحدث أكثر أو تبحث عن وسيلة لتخفيف هذا الحزن، حاول تقرب من شخص تثق فيه، سواء كان صديق أو فرد من العائلة. الدعاء واللجوء إلى الله يمكن أن يكون له تأثير مريح أيضًا، كما أن الصبر والاحتساب من القيم التي تساعدنا على تجاوز الأوقات الصعبة.
+
+وإذا شعرت أن الأمور تتفاقم، لا تتردد في البحث عن مساعدة من مختص نفسي. وجود شخص متخصص يمكنه مساعدتك في فهم مشاعرك بشكل أعمق وتقديم الدعم الذي تحتاجه. تذكر أنك لست وحدك، وهناك دائمًا من يهتم بك ويرغب في مساعدتك.
+[2025-07-15 23:02:12,416] INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/u0TsaWvt0v8migutHM3M?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+[2025-07-15 23:02:12,592] INFO - [TTS] Arabic TTS saved to: static/audio\291bb42f-b3e6-44c2-b777-33f546e513a1.mp3
+[2025-07-15 23:02:12,594] INFO - 127.0.0.1 - - [15/Jul/2025 23:02:12] "POST /process HTTP/1.1" 200 -
+[2025-07-15 23:02:13,025] INFO - 127.0.0.1 - - [15/Jul/2025 23:02:13] "[35m[1mGET /audio/291bb42f-b3e6-44c2-b777-33f546e513a1.mp3 HTTP/1.1[0m" 206 -
+[2025-07-15 23:02:35,089] INFO - 127.0.0.1 - - [15/Jul/2025 23:02:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-07-15 23:02:40,821] INFO - 127.0.0.1 - - [15/Jul/2025 23:02:40] "[35m[1mGET /audio/291bb42f-b3e6-44c2-b777-33f546e513a1.mp3 HTTP/1.1[0m" 206 -
+[2025-07-15 23:03:50,470] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\tts_engine.py', reloading
+[2025-07-15 23:03:50,471] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\tts_engine.py', reloading
+[2025-07-15 23:03:50,471] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\tts_engine.py', reloading

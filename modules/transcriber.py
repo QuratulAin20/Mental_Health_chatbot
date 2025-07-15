@@ -4,6 +4,8 @@ from dotenv import load_dotenv
 from groq import Groq
 from modules.logger import logging
 from modules.exceptions import MentalHealthChatBotException
+from faster_whisper import WhisperModel
+import torch
 
 # Load environment variables
 load_dotenv()

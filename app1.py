@@ -85,18 +85,17 @@ def process():
     if not os.path.exists(tts_path):
         tts_engine.speak_arabic_emotional(response_text, tone=voice_tone, output_path=tts_path)
 
-    # Step 7: Log to memory DB after sending response
+
+    # Step 7: Log interaction using updated memory format
     @after_this_request
     def log_after_response(response):
-        memory.remember_interaction(session_id, emotion_result.get('emotion'), prompt, response_text,
-                                    transcript=transcript,
-                                    input_audio_path=audio_path,
-                                    output_audio_path=tts_path,
-                                    intent=intent_result,
-                                    model=model_used,
-                                    latency=round(time.time() - start_time, 2))
+        memory.remember_interaction(
+            session_id=session_id,
+            emotion=emotion_result.get('emotion', 'neutral'),
+            verse=prompt,  # Treated as the "Quran verse" placeholder
+            response=response_text
+        )
         return response
-
     total_latency = round(time.time() - start_time, 2)
 
     return render_template('index.html',

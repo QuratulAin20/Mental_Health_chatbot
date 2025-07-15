@@ -1,0 +1,26 @@
+[2025-07-15 23:39:05,664] INFO - Loaded Whisper model 'tiny.en' on cpu (int8)
+[2025-07-15 23:39:12,389] INFO - DataFrame loaded successfully.
+[2025-07-15 23:39:12,407] WARNING -  * Debugger is active!
+[2025-07-15 23:39:12,413] INFO -  * Debugger PIN: 240-075-977
+[2025-07-15 23:39:12,472] INFO - 127.0.0.1 - - [15/Jul/2025 23:39:12] "GET / HTTP/1.1" 200 -
+[2025-07-15 23:39:12,477] INFO - 127.0.0.1 - - [15/Jul/2025 23:39:12] "GET / HTTP/1.1" 200 -
+[2025-07-15 23:39:24,104] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 23:39:24,132] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 23:39:24,133] ERROR - Error during transcription
+Traceback (most recent call last):
+  File "C:\Users\DELL\Desktop\mental_health_bot\modules\transcriber.py", line 113, in transcribe_audio
+    segments, _ = whisper_model.transcribe(
+  File "C:\Users\DELL\anaconda3\envs\health_chatbot\lib\site-packages\faster_whisper\transcribe.py", line 834, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "C:\Users\DELL\anaconda3\envs\health_chatbot\lib\site-packages\faster_whisper\audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+  File "av/container/core.pyx", line 418, in av.container.core.open
+  File "av/container/core.pyx", line 283, in av.container.core.Container.__cinit__
+  File "av/container/core.pyx", line 303, in av.container.core.Container.err_check
+  File "av/error.pyx", line 424, in av.error.err_check
+av.error.InvalidDataError: [Errno 1094995529] Invalid data found when processing input: 'static/audio\\user_input.wav'
+[2025-07-15 23:39:24,140] ERROR - Error in [C:\Users\DELL\Desktop\mental_health_bot\modules\transcriber.py] at line [113]: [Errno 1094995529] Invalid data found when processing input: 'static/audio\\user_input.wav'
+[2025-07-15 23:39:24,139] INFO -  * Detected change in 'C:\\Users\\DELL\\anaconda3\\envs\\health_chatbot\\Lib\\site-packages\\faster_whisper\\audio.py', reloading
+[2025-07-15 23:39:24,166] INFO - 127.0.0.1 - - [15/Jul/2025 23:39:24] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+[2025-07-15 23:39:24,334] INFO - Processing audio with duration 00:02.392
+[2025-07-15 23:39:24,336] WARNING - The current model is English-only but the language parameter is set to 'ar'; using 'en' instead.

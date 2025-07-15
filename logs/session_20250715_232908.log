@@ -1,0 +1,31 @@
+[2025-07-15 23:29:17,107] INFO - DataFrame loaded successfully.
+[2025-07-15 23:29:17,123] WARNING -  * Debugger is active!
+[2025-07-15 23:29:17,130] INFO -  * Debugger PIN: 240-075-977
+[2025-07-15 23:29:17,195] INFO - 127.0.0.1 - - [15/Jul/2025 23:29:17] "GET / HTTP/1.1" 200 -
+[2025-07-15 23:29:17,200] INFO - 127.0.0.1 - - [15/Jul/2025 23:29:17] "GET / HTTP/1.1" 200 -
+[2025-07-15 23:29:25,980] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 23:29:27,216] INFO - Processing audio with duration 00:01.556
+[2025-07-15 23:29:34,547] INFO - Local transcription successful.
+[2025-07-15 23:29:34,599] INFO - Running emotion and intent classification...
+[2025-07-15 23:29:34,599] INFO - No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 23:29:35,354] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 23:29:35,363] INFO - Emotion: الحزن | Intent: طلب دعم عاطفي
+[2025-07-15 23:29:35,365] INFO -  Building culturally adapted prompt...
+[2025-07-15 23:30:02,249] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 23:30:02,253] INFO - GPT-4o responded in 26.89s
+[2025-07-15 23:30:02,260] WARNING - Term not found. Returning input term: أهلاً وسهلاً فيك. أول شيء، حاب أقول لك إن الشعور بالحزن أمر طبيعي ويمر فيه كل شخص في فترات معينة من حياته. من المهم تذكير نفسك إنك مو وحدك وإن الله دائماً معاك. 
+
+إذا كنت تحس إنك بحاجة لدعم عاطفي، حاول تتواصل مع شخص تثق فيه، سواء كان صديق أو فرد من العائلة. وأحياناً، مجرد الحديث عن مشاعرك يساعد في تخفيف الحمل النفسي.
+
+بعد، ممكن تلاقي الراحة في قراءة القرآن والدعاء. القرآن يبعث الطمأنينة في النفس ويذكّرنا بالصبر والتوكل على الله. 
+
+إذا حسيت إنك تحتاج مساعدة أكبر، لا تتردد في التواصل مع مختص نفسي. هم موجودين لمساعدتك وتقديم الدعم اللي تحتاجه. 
+
+تذكر إنك مو وحدك وإن الله دائماً موجود ليسمع دعاءك.
+[2025-07-15 23:30:14,674] INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/G1QUjBCuRBbLbAmYlTgl?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+[2025-07-15 23:30:14,899] INFO - [TTS] Arabic TTS saved to: static/audio\d37aad29-4928-4704-a51a-b5516ac5367e.mp3
+[2025-07-15 23:30:14,900] INFO - 127.0.0.1 - - [15/Jul/2025 23:30:14] "POST /process HTTP/1.1" 200 -
+[2025-07-15 23:30:25,241] INFO - 127.0.0.1 - - [15/Jul/2025 23:30:25] "[35m[1mGET /audio/d37aad29-4928-4704-a51a-b5516ac5367e.mp3 HTTP/1.1[0m" 206 -
+[2025-07-15 23:35:11,916] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\transcriber.py', reloading
+[2025-07-15 23:35:11,926] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\transcriber.py', reloading
+[2025-07-15 23:35:11,926] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\transcriber.py', reloading

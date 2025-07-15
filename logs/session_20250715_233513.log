@@ -1,0 +1,29 @@
+[2025-07-15 23:35:54,207] INFO - Loaded Whisper model 'tiny' on cpu (int8)
+[2025-07-15 23:35:58,281] INFO - DataFrame loaded successfully.
+[2025-07-15 23:35:58,290] WARNING -  * Debugger is active!
+[2025-07-15 23:35:58,293] INFO -  * Debugger PIN: 240-075-977
+[2025-07-15 23:35:58,327] INFO - 127.0.0.1 - - [15/Jul/2025 23:35:58] "GET / HTTP/1.1" 200 -
+[2025-07-15 23:35:58,330] INFO - 127.0.0.1 - - [15/Jul/2025 23:35:58] "GET / HTTP/1.1" 200 -
+[2025-07-15 23:36:28,398] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 23:36:28,587] INFO - Processing audio with duration 00:03.506
+[2025-07-15 23:36:30,171] INFO - Transcription successful.
+[2025-07-15 23:36:30,172] INFO - Running emotion and intent classification...
+[2025-07-15 23:36:30,173] INFO - No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 23:36:30,797] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 23:36:30,802] INFO - Emotion: الغضب | Intent: تفريغ
+[2025-07-15 23:36:30,805] INFO -  Building culturally adapted prompt...
+[2025-07-15 23:36:39,764] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 23:36:39,772] INFO - GPT-4o responded in 8.97s
+[2025-07-15 23:36:39,773] WARNING - Term not found. Returning input term: أفهم من كلامك إنك تشعر بالغضب بسبب موقف مررت فيه. من الطبيعي إن الإنسان يمر بمثل هذي المشاعر، وخصوصًا إذا حس إن حد قلل من احترامه. 
+
+من المهم إنك تحاول تهدي نفسك وتفكر في الأمور بطريقة هادئة. ممكن تسأل نفسك: "ليش هذا الكلام أثر فيني بهالشكل؟" أحيانًا، لما نفكر في السبب، نقدر نلاقي طرق للتعامل مع الموقف بشكل أفضل. 
+
+تذكر إن الصبر والهدوء يساعدونك في التحكم في مشاعرك. وإذا حسيت إنك تحتاج تتكلم مع حد، حاول تتواصل مع شخص تثق فيه، سواء كان صديق أو أحد من العائلة. 
+
+وإذا كنت تحتاج مساعدة إضافية، لا تتردد في التواصل مع مختص نفسي. تذكر إن الله دائماً معنا ويدعمنا في كل لحظة.
+[2025-07-15 23:36:49,270] INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/G1QUjBCuRBbLbAmYlTgl?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+[2025-07-15 23:36:49,640] INFO - [TTS] Arabic TTS saved to: static/audio\faa10443-ca80-48dc-80f6-e828c494a61a.mp3
+[2025-07-15 23:36:49,643] INFO - 127.0.0.1 - - [15/Jul/2025 23:36:49] "POST /process HTTP/1.1" 200 -
+[2025-07-15 23:36:49,698] INFO - 127.0.0.1 - - [15/Jul/2025 23:36:49] "[35m[1mGET /audio/faa10443-ca80-48dc-80f6-e828c494a61a.mp3 HTTP/1.1[0m" 206 -
+[2025-07-15 23:38:18,884] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\transcriber.py', reloading
+[2025-07-15 23:38:18,885] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\transcriber.py', reloading

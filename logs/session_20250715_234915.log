@@ -1,0 +1,50 @@
+[2025-07-15 23:49:24,450] INFO - DataFrame loaded successfully.
+[2025-07-15 23:49:24,471] WARNING -  * Debugger is active!
+[2025-07-15 23:49:24,475] INFO -  * Debugger PIN: 240-075-977
+[2025-07-15 23:49:24,514] INFO - 127.0.0.1 - - [15/Jul/2025 23:49:24] "GET / HTTP/1.1" 200 -
+[2025-07-15 23:49:36,763] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 23:49:37,633] INFO - Processing audio with duration 00:01.277
+[2025-07-15 23:49:37,754] INFO - VAD filter removed 00:00.000 of audio
+[2025-07-15 23:49:37,756] WARNING - The current model is English-only but the language parameter is set to 'ar'; using 'en' instead.
+[2025-07-15 23:49:38,165] INFO - Streaming transcription successful.
+[2025-07-15 23:49:38,179] INFO - Running emotion and intent classification...
+[2025-07-15 23:49:38,180] INFO - No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 23:49:38,878] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 23:49:38,894] ERROR - Error in [C:\Users\DELL\Desktop\mental_health_bot\modules\emotion_intent.py] at line [69]: Failed to detect emotion and intent
+[2025-07-15 23:49:38,944] INFO - 127.0.0.1 - - [15/Jul/2025 23:49:38] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+[2025-07-15 23:49:38,970] INFO - 127.0.0.1 - - [15/Jul/2025 23:49:38] "[36mGET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-07-15 23:49:39,291] INFO - 127.0.0.1 - - [15/Jul/2025 23:49:39] "[36mGET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-07-15 23:49:39,538] INFO - 127.0.0.1 - - [15/Jul/2025 23:49:39] "GET /process?__debugger__=yes&cmd=resource&f=console.png&s=mmmfLIGoHIEipr7wIDFP HTTP/1.1" 200 -
+[2025-07-15 23:53:29,438] INFO - 127.0.0.1 - - [15/Jul/2025 23:53:29] "GET / HTTP/1.1" 200 -
+[2025-07-15 23:53:40,876] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 23:53:41,805] INFO - Processing audio with duration 00:01.695
+[2025-07-15 23:53:41,814] INFO - VAD filter removed 00:00.000 of audio
+[2025-07-15 23:53:41,816] WARNING - The current model is English-only but the language parameter is set to 'ar'; using 'en' instead.
+[2025-07-15 23:53:42,483] INFO - Streaming transcription successful.
+[2025-07-15 23:53:42,498] INFO - Running emotion and intent classification...
+[2025-07-15 23:53:42,499] INFO - No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 23:53:43,556] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 23:53:43,559] ERROR - Error in [C:\Users\DELL\Desktop\mental_health_bot\modules\emotion_intent.py] at line [69]: Failed to detect emotion and intent
+[2025-07-15 23:53:43,565] INFO - 127.0.0.1 - - [15/Jul/2025 23:53:43] "POST /process HTTP/1.1" 200 -
+[2025-07-15 23:54:10,580] INFO - 127.0.0.1 - - [15/Jul/2025 23:54:10] "GET / HTTP/1.1" 200 -
+[2025-07-15 23:54:26,806] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 23:54:27,668] INFO - Processing audio with duration 00:01.370
+[2025-07-15 23:54:27,674] INFO - VAD filter removed 00:00.144 of audio
+[2025-07-15 23:54:27,675] WARNING - The current model is English-only but the language parameter is set to 'ar'; using 'en' instead.
+[2025-07-15 23:54:28,060] INFO - Streaming transcription successful.
+[2025-07-15 23:54:28,072] INFO - Running emotion and intent classification...
+[2025-07-15 23:54:28,075] INFO - No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 23:54:28,545] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 23:54:28,547] INFO - Emotion: الدهشة | Intent: استفسار
+[2025-07-15 23:54:28,550] INFO -  Building culturally adapted prompt...
+[2025-07-15 23:54:32,040] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 23:54:32,060] INFO - GPT-4o responded in 3.51s
+[2025-07-15 23:54:32,069] WARNING - Term not found. Returning input term: أهلاً وسهلاً! أشوف إن عندك نوع من الدهشة أو الاستغراب. إذا كان في شي معين حابب تعرف عنه أو تستفسر عنه، لا تتردد في مشاركته. أنا هنا عشان أساعدك وأدعمك بأي طريقة ممكنة. تذكر إن الحديث والتواصل يساعدنا كثير في فهم الأمور اللي تمر علينا. وإذا كان عندك أي شي ثاني تحب تضيفه، أنا موجود هنا للاستماع.
+[2025-07-15 23:54:36,707] INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/G1QUjBCuRBbLbAmYlTgl?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+[2025-07-15 23:54:36,821] INFO - [TTS] Arabic TTS saved to: static/audio\3e9bff98-575a-4445-908b-769109a76c30.mp3
+[2025-07-15 23:54:36,823] INFO - 127.0.0.1 - - [15/Jul/2025 23:54:36] "POST /process HTTP/1.1" 200 -
+[2025-07-15 23:54:36,928] INFO - 127.0.0.1 - - [15/Jul/2025 23:54:36] "[35m[1mGET /audio/3e9bff98-575a-4445-908b-769109a76c30.mp3 HTTP/1.1[0m" 206 -
+[2025-07-15 23:54:37,092] INFO - 127.0.0.1 - - [15/Jul/2025 23:54:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-07-15 23:55:30,200] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\tts_engine.py', reloading
+[2025-07-15 23:55:30,210] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\tts_engine.py', reloading
+[2025-07-15 23:55:30,211] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\tts_engine.py', reloading
