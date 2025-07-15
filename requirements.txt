@@ -1,6 +1,29 @@
- python-dotenv
-speechrecognition
 pyaudio
 openpyxl
 pandas
+Flask
+Flask-SQLAlchemy
+pydub
+sounddevice
+soundfile
+SpeechRecognition
+whisper 
+transformers
+torch
+scikit-learn
+openai
+anthropic
 numpy
+uuid
+requests
+python-dotenv
+groq
+python-dotenv
+faster-whisper
+elevenlabs
+tqdm
+numpy
+# --- Testing ---
+pytest
+pytest-asyncio
+
