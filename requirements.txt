@@ -23,6 +23,7 @@ faster-whisper
 elevenlabs
 tqdm
 numpy
+streamlit
 # --- Testing ---
 pytest
 pytest-asyncio
