@@ -91,6 +91,7 @@ OMANI-Bot/
 │   ├── memory.py              # Session interaction logging
 │   ├── evaluator.py           # Claude vs GPT benchmark stub
 │   └── dialect_handling.py    # (Planned) Arabic-English code switch
+```
 
 ---
 
@@ -103,6 +104,7 @@ python app.py
 
 # OR: Run in production
 gunicorn -w 2 -b 0.0.0.0:5000 app:app
+```
 
 ---
 📢 **For clinical use, ensure integration with qualified mental health professionals and live escalation systems**
