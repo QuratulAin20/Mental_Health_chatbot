@@ -40,6 +40,7 @@ files = {
     "modules/safety.py": "# Crisis escalation and filtering\n",
     "modules/evaluator.py": "# Compare GPT-4o vs Claude\n",
     "modules/memory.py": "for saving session",
+    "module/dialect_handling.py":"for handling omani-dialect"
     "utils/timers.py": "# Latency timers\n"
     
 }

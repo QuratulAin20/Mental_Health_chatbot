@@ -1,0 +1,21 @@
+[2025-07-15 13:56:46,742] INFO - DataFrame loaded successfully.
+[2025-07-15 13:56:46,757] WARNING -  * Debugger is active!
+[2025-07-15 13:56:46,757] INFO -  * Debugger PIN: 240-075-977
+[2025-07-15 13:56:46,782] INFO - 127.0.0.1 - - [15/Jul/2025 13:56:46] "GET / HTTP/1.1" 200 -
+[2025-07-15 13:56:58,935] INFO - 127.0.0.1 - - [15/Jul/2025 13:56:58] "GET / HTTP/1.1" 200 -
+[2025-07-15 13:57:06,471] INFO - 127.0.0.1 - - [15/Jul/2025 13:57:06] "GET / HTTP/1.1" 200 -
+[2025-07-15 13:57:38,546] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 13:57:39,701] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[2025-07-15 13:57:39,701] INFO - Transcription successful.
+[2025-07-15 13:57:39,701] INFO - Running emotion and intent classification...
+[2025-07-15 13:57:39,706] INFO - No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 13:57:40,212] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 13:57:40,229] INFO - Emotion: الurgency | Intent: طلب مساعدة
+[2025-07-15 13:57:40,236] INFO -  Building culturally adapted prompt...
+[2025-07-15 13:57:43,795] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 13:57:43,815] INFO - GPT-4o responded in 3.58s
+[2025-07-15 13:57:43,829] WARNING - Term not found. Returning input term: أهلاً وسهلاً فيك، يبدو إنك تمر بوقت صعب وتحتاج لمساعدة سريعة. أنا هنا عشان أسمعك وأدعمك. إذا حاب تشارك أكثر عن اللي تمر فيه، يمكننا نبدأ نتحدث عن الخطوات اللي ممكن تساعدك. تذكر إن الصبر والدعاء لهم دور كبير في تخفيف الضغوط. وإذا حسيت إن الوضع يتطلب مساعدة فورية، لا تتردد تتواصل مع شخص متخصص أو جهة مختصة في منطقتك. أنا هنا معك لأي دعم تحتاجه.
+[2025-07-15 13:57:50,133] INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/DANw8bnAVbjDEHwZIoYa?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+[2025-07-15 13:57:50,265] INFO - [TTS] Arabic TTS saved to: static/audio\3bee2d3c-63ba-44b5-bd76-a80099b066ff.mp3
+[2025-07-15 13:57:50,281] INFO -  * Detected change in 'C:\\Users\\DELL\\anaconda3\\envs\\health_chatbot\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-07-15 13:57:50,281] INFO - 127.0.0.1 - - [15/Jul/2025 13:57:50] "[35m[1mPOST /process HTTP/1.1[0m" 500 -

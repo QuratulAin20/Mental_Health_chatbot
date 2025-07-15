@@ -5,6 +5,7 @@
 3. Emotion & Intent Detection (emotion_intent.py with few-shot prompt templates)
    ↓
 4. Response Generation 
+   - dialect handling (omani_arabic dialect)
    - Prompt Templates (CBT + Spiritual + Cultural)
    - Dual LLM (OpenAI + Claude fallback)
    ↓

@@ -1,0 +1,21 @@
+[2025-07-15 14:01:36,083] INFO - DataFrame loaded successfully.
+[2025-07-15 14:01:36,108] WARNING -  * Debugger is active!
+[2025-07-15 14:01:36,116] INFO -  * Debugger PIN: 240-075-977
+[2025-07-15 14:01:36,149] INFO - 127.0.0.1 - - [15/Jul/2025 14:01:36] "GET / HTTP/1.1" 200 -
+[2025-07-15 14:01:49,508] INFO - Voice input saved: static/audio\user_input.wav
+[2025-07-15 14:01:51,282] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
+[2025-07-15 14:01:51,282] INFO - Transcription successful.
+[2025-07-15 14:01:51,287] INFO - Running emotion and intent classification...
+[2025-07-15 14:01:51,287] INFO - No specific intent matched. Defaulting to 'general_support'
+[2025-07-15 14:01:51,817] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 14:01:51,817] INFO - Emotion: امتنان | Intent: تعبير عن الشكر
+[2025-07-15 14:01:51,823] INFO -  Building culturally adapted prompt...
+[2025-07-15 14:01:57,344] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+[2025-07-15 14:01:57,353] INFO - GPT-4o responded in 5.53s
+[2025-07-15 14:01:57,353] WARNING - Term not found. Returning input term: العفو، هذا واجبنا. يسعدني إنك حسيت بالامتنان، وهذا شعور جميل يعكس طيبة قلبك. إذا في أي شيء ثاني تحتاج تتكلم عنه أو تحتاج مساعدة فيه، أنا هنا لمساعدتك. الله يوفقك ويسعدك دايمًا.
+[2025-07-15 14:02:01,439] INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/DANw8bnAVbjDEHwZIoYa?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
+[2025-07-15 14:02:01,544] INFO - [TTS] Arabic TTS saved to: static/audio\2d086f0d-6a6d-4499-9bfc-b13f01de84fa.mp3
+[2025-07-15 14:02:01,561] INFO - 127.0.0.1 - - [15/Jul/2025 14:02:01] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+[2025-07-15 14:02:01,928] INFO - 127.0.0.1 - - [15/Jul/2025 14:02:01] "[36mGET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-07-15 14:02:01,928] INFO - 127.0.0.1 - - [15/Jul/2025 14:02:01] "[36mGET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-07-15 14:02:02,181] INFO - 127.0.0.1 - - [15/Jul/2025 14:02:02] "GET /process?__debugger__=yes&cmd=resource&f=console.png&s=wzwSr4asnGbESpUc0JGE HTTP/1.1" 200 -
