@@ -54,7 +54,7 @@ How It Works
 
 -> Session stored via in-memory session_memory
 
-```
+```python
 # Setup environment
 pip install -r requirements.txt
 
