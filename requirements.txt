@@ -18,5 +18,3 @@ python-dotenv
 elevenlabs
 tqdm
 streamlit
-docker
-faster-whisper
