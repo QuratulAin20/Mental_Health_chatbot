@@ -4,26 +4,33 @@
 A culturally-sensitive, real-time Arabic voice chatbot built with Flask, designed to provide therapeutic-grade support in the **Omani dialect**. It includes speech recognition, emotional intelligence, spiritual integration, and Arabic emotional TTS output for fully voice-based therapy.
 
 ---
-The backend is built using Flask, a lightweight yet powerful Python framework, designed for scalability, real-time interaction, and modularity.
 ## Application Data Flow
-- Voice Input: User records Arabic audio (10–15s, 16kHz mono).
-- Transcription: Audio transcribed using Arabic-optimized Whisper (FasterWhisper).
-- Emotion & Intent Detection: Parallel analysis using custom vocab and cultural lexicon.
-- Safety Check: Detects suicide/self-harm risk using clinical prompts.
-- Prompt Building: Dynamically constructs therapeutic prompt (CBT, Islamic integration).
-- LLM Response: Dual-model strategy (GPT-4o primary, Claude Opus fallback).
-- Text-to-Speech: Response converted to emotionally adaptive Arabic voice.
-- Memory Logging: Stores session, emotion, and therapeutic exchange with UUID.
----
+Modular Pipeline
+voice_input, transcriber, emotion_intent, intent_classifier, response_generator, etc.that makes the app maintainable and testable.
 
-## Technical Implementation
-| Category                 | Details                                                                 |
-| ------------------------ | ----------------------------------------------------------------------- |
-| **Architecture Quality** | Modular, scalable codebase (`modules/`), with clean docstrings.         |
-| **Latency Optimization** | Multithreaded processing (intent + emotion), response <20s end-to-end.  |
-| **Error Handling**       | Graceful recovery via `try/except`, fallback on transcription failures. |
-| **Security**             | HIPAA-compliant: A provacy note to guide user regarding their data      |
-| **Code Quality**         | Documented, maintainable, log-based debugging with evaluation reports.  |
+**1.Multithreaded Emotion & Intent Detection**
+Running emotion and intent detection in parallel threads to save latency — clever optimization.
+
+**2.Contextual Prompting + History**
+Keeping recent user interaction context and feeding it into the LLM shows that you're enabling multi-turn conversations, which is critical for therapeutic bots.
+
+ **3.Safety Check**
+Having safety.detect_risk() and halting response generation for suicidal ideation is essential for mental health apps. This shows you’re considering ethical safeguards.
+
+**4.TTS with Emotion Control**
+Using voice_tone from emotion detection to generate emotionally adaptive Arabic voice output shows attention to user empathy and localization.
+
+**5.Privacy Policy & Logging**
+Including a user-visible privacy policy and logging interactions with memory.remember_interaction() — great for audit and research use cases.
+
+**6.Exception-Handling**
+Robust try-except blocks throughout the app ensure graceful error recovery and improved user experience.
+
+**7.LLM Fallback Mechanism**
+Automatically switches from GPT-4o to Claude Opus if the primary model fails or returns low confidence output, ensuring high response reliability.
+
+**8.Docker Support**
+Fully containerized with a production-ready Dockerfile for seamless deployment across environments.
 
 ---
 
