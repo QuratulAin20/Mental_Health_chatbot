@@ -158,6 +158,5 @@ gunicorn -w 2 -b 0.0.0.0:5000 app:app
 | **Clinical Supervision**  | Build supervision tools for psychologists to review AI-guided sessions and give feedback.               |
 | **LLM Adapter Plugin**    | Allow hot-swappable LLMs (Groq, Mistral, LLaMA 3) for cost-performance trade-offs.                      |
 
-
-
-
+---
+**Can easily be transferable in AI agent using LANGGRAPH or CREWAI**
