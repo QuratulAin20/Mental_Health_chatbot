@@ -1,11 +1,34 @@
-# 🕌 Mental Health Voice Bot
-*Culturally-aware, voice-based mental health assistant for real-time counselling support in Omani Arabic*
+# 🕌 Mental Health AI Voice Bot
+*Culturally-aware, AI voice-based mental health assistant for real-time counselling support in Omani Arabic*
 
 A culturally-sensitive, real-time Arabic voice chatbot built with Flask, designed to provide therapeutic-grade support in the **Omani dialect**. It includes speech recognition, emotional intelligence, spiritual integration, and Arabic emotional TTS output for fully voice-based therapy.
 
 ---
 ## Application Data Flow
-Modular Pipeline
+1. Voice Input (microphone) 
+   ↓
+2. Transcription (Groq Whisper) 
+   ↓
+3. Emotion & Intent Detection (emotion_intent.py with few-shot prompt templates)
+   ↓
+4. Response Generation 
+   - dialect handling (omani_arabic dialect)
+   - Prompt Templates (CBT + Spiritual + Cultural)
+   - Dual LLM (OpenAI + Claude fallback)
+   ↓
+5. Safety Mechanism & Filtering
+   - Suicide risk detection
+   - Harmful intent filtering
+   - Escalation + Referral protocols
+   ↓
+6. Response Evaluation (openai vs claude)
+   ↓
+7. Voice Output (TTS: Arabic-Omani dialect)
+   ↓
+8. Session Logging + Consent + Emergency Trigger + HIPAA Compliance
+---
+
+## Modular Pipeline
 voice_input, transcriber, emotion_intent, intent_classifier, response_generator, etc.that makes the app maintainable and testable.
 
 **1.Multithreaded Emotion & Intent Detection**
@@ -33,6 +56,22 @@ Automatically switches from GPT-4o to Claude Opus if the primary model fails or 
 Fully containerized with a production-ready Dockerfile for seamless deployment across environments.
 
 ---
+ ## Techniques Used in the AI Chatbot:
+**Prompt Engineering (Role/System Prompting)**
+- Defines the assistant as a culturally-aware therapist using empathetic, Gulf Arabic, and therapeutic tone.
+- Enables the chatbot to code-switch between Arabic and English as needed.
+
+**LLM-Based Emotion & Intent Detection**
+- Uses Groq's LLaMA3-70B to analyze user messages and return emotion (e.g., "قلق") and intent (e.g., "استشارة").
+
+ **Dialect Adaptation via Dictionary Lookup**
+-Translates Modern Standard Arabic (MSA) to Omani dialect using a small curated dataset — helps localize responses naturally.
+
+**Fallback and Latency Optimization**
+- Uses both GPT-4o and Claude Sonnet, switching automatically if one fails — improves reliability and speed.
+
+**Natural Dialogue Memory**
+- Maintains conversation history to generate context-aware, multi-turn responses like a real therapist
 
 ## Language & Cultural Competency
 
@@ -78,28 +117,6 @@ Fully containerized with a production-ready Dockerfile for seamless deployment a
 - Users are shown a privacy policy on entry.
 - Consent to record, transcribe, and analyze voice data is required.
 - Suicide triggers are handled with a clear crisis message, optionally integrated with escalation.
----
-## Project Structure
-
-```bash
-OMANI-Bot/
-├── app.py                     # Main Flask App (latency-optimized)
-├── static/audio/              # Input/output voice storage
-├── templates/index.html       # Web UI
-├── modules/
-│   ├── voice_input.py         # Voice recording
-│   ├── transcriber.py         # Whisper STT (Groq or local)
-│   ├── emotion_intent.py      # Detect emotion & intent
-│   ├── intent_classifier.py   # Predict user need
-│   ├── prompt_builder.py      # CBT/Islamic prompt construction
-│   ├── response_generator.py  # GPT-4o & Claude LLM responses
-│   ├── tts_engine.py          # Emotional Arabic speech
-│   ├── safety.py              # Suicide/harm filters
-│   ├── memory.py              # Session interaction logging
-│   ├── evaluator.py           # Claude vs GPT benchmark stub
-│   └── dialect_handling.py    # (Planned) Arabic-English code switch
-```
-
 ---
 
 ```bash
