@@ -1,6 +1,10 @@
 # 🕌 Mental Health AI Voice Bot
 *Culturally-aware, AI voice-based mental health assistant for real-time counselling support in Omani Arabic*
 
+---
+![Cover](assets/cover_photo.png)
+
+---
 A culturally-sensitive, real-time Arabic voice chatbot built with Flask, designed to provide therapeutic-grade support in the **Omani dialect**. It includes speech recognition, emotional intelligence, spiritual integration, and Arabic emotional TTS output for fully voice-based therapy.
 
 ---
