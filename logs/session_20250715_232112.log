@@ -1,9 +1,0 @@
-[2025-07-15 23:21:16,502] INFO - DataFrame loaded successfully.
-[2025-07-15 23:21:16,522] WARNING -  * Debugger is active!
-[2025-07-15 23:21:16,525] INFO -  * Debugger PIN: 240-075-977
-[2025-07-15 23:21:27,794] INFO - Voice input saved: static/audio\user_input.wav
-[2025-07-15 23:21:29,476] INFO -  * Detected change in 'C:\\Users\\DELL\\anaconda3\\envs\\health_chatbot\\Lib\\site-packages\\torch\\_prims\\__init__.py', reloading
-[2025-07-15 23:21:29,480] INFO -  * Detected change in 'C:\\Users\\DELL\\anaconda3\\envs\\health_chatbot\\Lib\\site-packages\\torch\\_library\\custom_ops.py', reloading
-[2025-07-15 23:21:29,705] INFO - FakeTensor cache stats:
-[2025-07-15 23:21:29,705] INFO -   cache_hits: 0
-[2025-07-15 23:21:29,705] INFO -   cache_misses: 0

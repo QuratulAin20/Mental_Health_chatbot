@@ -1,6 +1,0 @@
-[2025-07-15 15:50:05,300] INFO - DataFrame loaded successfully.
-[2025-07-15 15:50:05,325] WARNING -  * Debugger is active!
-[2025-07-15 15:50:05,338] INFO -  * Debugger PIN: 240-075-977
-[2025-07-15 15:50:05,373] INFO - 127.0.0.1 - - [15/Jul/2025 15:50:05] "GET / HTTP/1.1" 200 -
-[2025-07-15 15:50:05,534] INFO - 127.0.0.1 - - [15/Jul/2025 15:50:05] "GET / HTTP/1.1" 200 -
-[2025-07-15 15:52:29,737] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\memory.py', reloading

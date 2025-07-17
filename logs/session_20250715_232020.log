@@ -1,7 +1,0 @@
-[2025-07-15 23:20:24,747] INFO - DataFrame loaded successfully.
-[2025-07-15 23:20:24,770] WARNING -  * Debugger is active!
-[2025-07-15 23:20:24,773] INFO -  * Debugger PIN: 240-075-977
-[2025-07-15 23:20:29,364] INFO - Voice input saved: static/audio\user_input.wav
-[2025-07-15 23:20:30,494] INFO -  * Detected change in 'C:\\Users\\DELL\\anaconda3\\envs\\health_chatbot\\Lib\\site-packages\\torch\\nn\\functional.py', reloading
-[2025-07-15 23:20:30,699] INFO -  * Detected change in 'C:\\Users\\DELL\\anaconda3\\envs\\health_chatbot\\Lib\\site-packages\\torch\\nn\\modules\\rnn.py', reloading
-[2025-07-15 23:20:30,797] INFO -  * Detected change in 'C:\\Users\\DELL\\anaconda3\\envs\\health_chatbot\\Lib\\site-packages\\torch\\functional.py', reloading

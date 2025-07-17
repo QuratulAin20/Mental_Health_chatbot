@@ -1,25 +1,0 @@
-[2025-07-15 14:00:18,779] INFO - DataFrame loaded successfully.
-[2025-07-15 14:00:18,805] WARNING -  * Debugger is active!
-[2025-07-15 14:00:18,805] INFO -  * Debugger PIN: 240-075-977
-[2025-07-15 14:00:22,493] INFO - 127.0.0.1 - - [15/Jul/2025 14:00:22] "GET / HTTP/1.1" 200 -
-[2025-07-15 14:00:32,713] INFO - Voice input saved: static/audio\user_input.wav
-[2025-07-15 14:00:34,091] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
-[2025-07-15 14:00:34,091] INFO - Transcription successful.
-[2025-07-15 14:00:34,091] INFO - Running emotion and intent classification...
-[2025-07-15 14:00:34,097] INFO - No specific intent matched. Defaulting to 'general_support'
-[2025-07-15 14:00:34,603] INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 14:00:34,603] INFO - Emotion: الغضب | Intent: تفريغ
-[2025-07-15 14:00:34,611] INFO -  Building culturally adapted prompt...
-[2025-07-15 14:00:42,893] INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-[2025-07-15 14:00:42,910] INFO - GPT-4o responded in 8.30s
-[2025-07-15 14:00:42,910] WARNING - Term not found. Returning input term: أفهم إنك تمر بلحظة من الغضب أو التوتر، وهذا شيء طبيعي يحدث لنا جميعًا في أوقات مختلفة. الحياة أحيانًا تكون سريعة ومتطلبة، وهذا يسبب لنا ضغوطًا. لكن تذكر، الصبر والهدوء يمكن أن يكونوا مفتاحًا للتعامل مع هذه المشاعر.
-
-حاول تأخذ لحظة لنفسك، تنفس بعمق، وذكر نفسك بالأشياء اللي تقدر تتحكم فيها. يمكن تساعدك بعض الأدعية أو الذكر في تهدئة النفس، مثل "اللهم اجعل لي من أمري يسرًا".
-
-إذا حسيت إنك تحتاج تتكلم أو تفضفض، لا تتردد في التواصل مع شخص تثق فيه أو مستشار نفسي. تذكر دائمًا إنك مب بروحك في هذا، وفي ناس مستعدة تسمعك وتدعمك.
-[2025-07-15 14:00:51,805] INFO - HTTP Request: POST https://api.elevenlabs.io/v1/text-to-speech/DANw8bnAVbjDEHwZIoYa?output_format=mp3_22050_32 "HTTP/1.1 200 OK"
-[2025-07-15 14:00:51,972] INFO - [TTS] Arabic TTS saved to: static/audio\fe8445e4-df2c-42d1-93d2-25c88279f346.mp3
-[2025-07-15 14:00:52,020] INFO - 127.0.0.1 - - [15/Jul/2025 14:00:52] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
-[2025-07-15 14:00:52,362] INFO - 127.0.0.1 - - [15/Jul/2025 14:00:52] "[36mGET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
-[2025-07-15 14:00:52,368] INFO - 127.0.0.1 - - [15/Jul/2025 14:00:52] "[36mGET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
-[2025-07-15 14:00:52,617] INFO - 127.0.0.1 - - [15/Jul/2025 14:00:52] "GET /process?__debugger__=yes&cmd=resource&f=console.png&s=BR5Ekphs7w3gd02pxmPX HTTP/1.1" 200 -

@@ -1,6 +1,0 @@
-[2025-07-14 22:43:59,222] INFO - 🎙️ Starting OMANI Mental Health Voice Bot Session
-[2025-07-14 22:44:08,617] INFO - Voice input saved: static/audio\user_input.wav
-[2025-07-14 22:44:11,181] INFO - HTTP Request: POST https://api.groq.com/openai/v1/audio/transcriptions "HTTP/1.1 200 OK"
-[2025-07-14 22:44:11,181] INFO - Transcription successful.
-[2025-07-14 22:44:11,181] INFO - 🤖 Running emotion and intent classification...
-[2025-07-14 22:44:11,181] ERROR - Error in [C:\Users\DELL\Desktop\mental_health_bot\modules\emotion_intent.py] at line [35]: Failed to detect emotion and intent

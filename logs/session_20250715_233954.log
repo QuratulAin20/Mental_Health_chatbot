@@ -1,7 +1,0 @@
-[2025-07-15 23:39:59,567] INFO - Loaded Whisper model 'tiny.en' on cpu (int8)
-[2025-07-15 23:40:04,094] INFO - DataFrame loaded successfully.
-[2025-07-15 23:40:04,109] WARNING -  * Debugger is active!
-[2025-07-15 23:40:04,116] INFO -  * Debugger PIN: 240-075-977
-[2025-07-15 23:41:27,330] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\transcriber.py', reloading
-[2025-07-15 23:41:27,330] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\transcriber.py', reloading
-[2025-07-15 23:41:27,331] INFO -  * Detected change in 'C:\\Users\\DELL\\Desktop\\mental_health_bot\\modules\\transcriber.py', reloading
