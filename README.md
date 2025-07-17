@@ -1,4 +1,4 @@
-# 🕌 Mental Health AI Voice Bot
+# 🕌 Omani-Mental Health AI Voice Bot
 *Culturally-aware, AI voice-based mental health assistant for real-time counselling support in Omani Arabic*
 
 ---
@@ -159,4 +159,5 @@ gunicorn -w 2 -b 0.0.0.0:5000 app:app
 | **LLM Adapter Plugin**    | Allow hot-swappable LLMs (Groq, Mistral, LLaMA 3) for cost-performance trade-offs.                      |
 
 ---
-**Can easily be transferable in AI agent using LANGGRAPH or CREWAI**
+**Can easily be transferable in AI agent using LANGGRAPH or CREWAI****
+**Contact details** qurat-zee@hotmail.com
