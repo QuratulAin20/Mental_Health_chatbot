@@ -8,7 +8,7 @@ from modules.dialect_handling import DialectDataProcessor
 
 # Load environment variables
 load_dotenv()
-ELEVENLABS_API_KEY= "sk_54166ad197513f74df1c6cb294ada58697ee4f9304bfe931"
+ELEVENLABS_API_KEY= os.getenv("ELEVENLAB_API_KEY")
 # Constants
 CUSTOM_ARABIC_VOICE_ID = "DANw8bnAVbjDEHwZIoYa"
 DEFAULT_OUTPUT_PATH = "static/audio/arabic_emotional_output.mp3"
